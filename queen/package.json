@@ -2,17 +2,19 @@
   "name": "queen",
   "version": "1.0.0",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
     "postinstall": "npm install cors"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [],
+  "author": "fathy nassef",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
-    "cloud": "^2.0.2",
+    "cloud": "2.0.2",
     "colors": "^1.4.0",
     "concurrently": "^9.0.1",
     "cors": "^2.8.5",
